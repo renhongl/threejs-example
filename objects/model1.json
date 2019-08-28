@@ -1,0 +1,85 @@
+{
+	"metadata": {
+		"version": 4.5,
+		"type": "Object",
+		"generator": "Object3D.toJSON"
+	},
+	"geometries": [
+		{
+			"uuid": "D5388E9A-3CC7-46EA-985C-C51C7A7F464B",
+			"type": "SphereBufferGeometry",
+			"radius": 1,
+			"widthSegments": 8,
+			"heightSegments": 6,
+			"phiStart": 0,
+			"phiLength": 6.283185,
+			"thetaStart": 0,
+			"thetaLength": 3.141593
+		},
+		{
+			"uuid": "61A1D7B1-E57F-4B3C-BA39-A11030FCDC34",
+			"type": "BoxBufferGeometry",
+			"width": 1,
+			"height": 1,
+			"depth": 1,
+			"widthSegments": 1,
+			"heightSegments": 1,
+			"depthSegments": 1
+		}],
+	"materials": [
+		{
+			"uuid": "1ADF47DA-D973-4439-935C-39BEEEA1DD70",
+			"type": "MeshStandardMaterial",
+			"color": 16777215,
+			"roughness": 0.5,
+			"metalness": 0.5,
+			"emissive": 0,
+			"depthFunc": 3,
+			"depthTest": true,
+			"depthWrite": true,
+			"stencilWrite": false,
+			"stencilFunc": 519,
+			"stencilRef": 0,
+			"stencilMask": 255,
+			"stencilFail": 7680,
+			"stencilZFail": 7680,
+			"stencilZPass": 7680
+		},
+		{
+			"uuid": "2BCB34B2-BA8C-4ADB-AACF-919CEEB5C3B0",
+			"type": "MeshStandardMaterial",
+			"color": 16777215,
+			"roughness": 0.5,
+			"metalness": 0.5,
+			"emissive": 0,
+			"depthFunc": 3,
+			"depthTest": true,
+			"depthWrite": true,
+			"stencilWrite": false,
+			"stencilFunc": 519,
+			"stencilRef": 0,
+			"stencilMask": 255,
+			"stencilFail": 7680,
+			"stencilZFail": 7680,
+			"stencilZPass": 7680
+		}],
+	"object": {
+		"uuid": "3900BBD3-D253-454A-8BC7-B97F95388A7E",
+		"type": "Mesh",
+		"name": "Sphere",
+		"layers": 1,
+		"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,1.723599,0,1],
+		"geometry": "D5388E9A-3CC7-46EA-985C-C51C7A7F464B",
+		"material": "1ADF47DA-D973-4439-935C-39BEEEA1DD70",
+		"children": [
+			{
+				"uuid": "05F35CAF-09DE-411B-B6C7-742F6FB5118C",
+				"type": "Mesh",
+				"name": "Box",
+				"layers": 1,
+				"matrix": [1.650135,0,0,0,0,1,0,0,0,0,1,0,-1.703459,0,0,1],
+				"geometry": "61A1D7B1-E57F-4B3C-BA39-A11030FCDC34",
+				"material": "2BCB34B2-BA8C-4ADB-AACF-919CEEB5C3B0"
+			}]
+	}
+}

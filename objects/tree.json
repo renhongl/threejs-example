@@ -1,0 +1,146 @@
+{
+	"metadata": {
+		"version": 4.5,
+		"type": "Object",
+		"generator": "Object3D.toJSON"
+	},
+	"geometries": [
+		{
+			"uuid": "4154A4D9-4873-47CA-8933-A8F64B4C7A19",
+			"type": "CylinderBufferGeometry",
+			"radiusTop": 1,
+			"radiusBottom": 1,
+			"height": 1,
+			"radialSegments": 8,
+			"heightSegments": 1,
+			"openEnded": false,
+			"thetaStart": 0,
+			"thetaLength": 6.283185
+		},
+		{
+			"uuid": "BF0A53DB-EE55-4866-B42B-E6273B84105F",
+			"type": "SphereBufferGeometry",
+			"radius": 1,
+			"widthSegments": 8,
+			"heightSegments": 6,
+			"phiStart": 0,
+			"phiLength": 6.283185,
+			"thetaStart": 0,
+			"thetaLength": 3.141593
+		}],
+	"materials": [
+		{
+			"uuid": "DD151D01-7851-41A4-9ABB-A148EB64BA99",
+			"type": "MeshStandardMaterial",
+			"color": 16777215,
+			"roughness": 0.5,
+			"metalness": 0.5,
+			"emissive": 0,
+			"map": "2B9CC3B7-761F-41B2-A8AC-BD112A1DF136",
+			"depthFunc": 3,
+			"depthTest": true,
+			"depthWrite": true,
+			"stencilWrite": false,
+			"stencilFunc": 519,
+			"stencilRef": 0,
+			"stencilMask": 255,
+			"stencilFail": 7680,
+			"stencilZFail": 7680,
+			"stencilZPass": 7680
+		},
+		{
+			"uuid": "562A5053-B199-47D5-8DF5-8F60FFD3D2B5",
+			"type": "MeshStandardMaterial",
+			"color": 32832,
+			"roughness": 0.5,
+			"metalness": 0.5,
+			"emissive": 0,
+			"map": "49007B97-5296-4345-8458-15B08118EFB4",
+			"depthFunc": 3,
+			"depthTest": true,
+			"depthWrite": true,
+			"stencilWrite": false,
+			"stencilFunc": 519,
+			"stencilRef": 0,
+			"stencilMask": 255,
+			"stencilFail": 7680,
+			"stencilZFail": 7680,
+			"stencilZPass": 7680
+		}],
+	"textures": [
+		{
+			"uuid": "2B9CC3B7-761F-41B2-A8AC-BD112A1DF136",
+			"name": "",
+			"mapping": 300,
+			"repeat": [1,1],
+			"offset": [0,0],
+			"center": [0,0],
+			"rotation": 0,
+			"wrap": [1001,1001],
+			"format": 1023,
+			"type": 1009,
+			"encoding": 3001,
+			"minFilter": 1008,
+			"magFilter": 1006,
+			"anisotropy": 1,
+			"flipY": true,
+			"premultiplyAlpha": false,
+			"unpackAlignment": 4,
+			"image": "7E798D98-536B-4507-A61F-B52C7EB76294"
+		},
+		{
+			"uuid": "49007B97-5296-4345-8458-15B08118EFB4",
+			"name": "",
+			"mapping": 300,
+			"repeat": [1,1],
+			"offset": [0,0],
+			"center": [0,0],
+			"rotation": 0,
+			"wrap": [1001,1001],
+			"format": 1023,
+			"type": 1009,
+			"encoding": 3001,
+			"minFilter": 1008,
+			"magFilter": 1006,
+			"anisotropy": 1,
+			"flipY": true,
+			"premultiplyAlpha": false,
+			"unpackAlignment": 4,
+			"image": "882F35C0-523C-445D-BF83-10022386564E"
+		}],
+	"images": [
+		{
+			"uuid": "7E798D98-536B-4507-A61F-B52C7EB76294",
+			"url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAADL0lEQVQ4T0WSy28bZRTFf9/Y8WM8tmc8ju04dtq4jRIlDaoSISRYoHQLqEseC4QEFSxYkA0bWHTDnj8KEBIVgkZp2hAKshPP2I4fGc/DnrH9oXjD3ZzF1b1H5yG++ehAToKIspnldpxgihJXGDsO9fUqducay7omo+VIrEAynSCTTuJ7ExRFIJ4+OZJaPstoOMIs5Pj52XO27tRJKJKB51MyDS7+vqTb73K4u03TGiHEnGq1wmDo3D54R85kDNcN0LQE0zCkXFqj27vGtgfsbtc4e93C91zu1tYYjGdc9yxiKGxvNRCfP34o4wLyeZXXzUvefPiAbv+Gie+T13U6vSEnp2dsbqyztXWPIPDpWT3caELoBYjvvziSY3+6PMhlVyiX1whnPl2rh54rMFMiXp43aWzUqFeK9Adj+jc33Axd8oaG+O7JI+mNx2iZBDERJ51eYS4jkok045HDwJ3Q7g3Yaaxj5E28qYcMF/xz1SanZRDHHx7KW/dVLUUhnycKQ+ZEJFdU5vMZTauHddUhnoyTzercyhUCYjHwpyHih6/flWfnNquGRt7IEZsDcdC0FIsZ/PLHK+rVEjEiFhLi8QSOE3DVsdjaqCE+e39HWp0uu/c3SaUSFPUcUTSn73hY9oBiwaC+ZjB2J7SsNsOBQ4ggk07h+R7i+ONDORi7dG2b/b29ZZn+fPEXmprk7YN9REzQuurgjF1yGQ3H+x9N00Q8/epI+sEUNaHy7PQEVdN56417XLY7zBYKpq6RiiukVJXR0GPkjJYky4Tm89siPZJaNoGiKCzmkovWFVk1A8w4v2iiZ3OUyjoVs4gz9vn95Iy0mmQRSYpFA/Hjtx/IKApRYgqpeJKx7/Fvy2YahSyAcmmVKAiWrBk1s9xPg5CiadC0bcSXj/dlo1FjPosQxJaZO8MRup5jOPKoVAoUshkQktPzFqViEU1Nk8unuWy3EZ++tyPLpsGlZVM0i8SVBc9fNKnW1ohCl0xqhe07m/jRDMvusFmv4Hoz3GmAkBHi+JNDKReSMIqQCE5fvmLn/l2cIKJRr/LTr79x8GAP3SjQvx6QUtP47g1GYZXJZMp/cXyDyLYniNMAAAAASUVORK5CYII="
+		},
+		{
+			"uuid": "882F35C0-523C-445D-BF83-10022386564E",
+			"url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABxUlEQVQ4T22TT0tCURDF5z5RXyppIEkgCWEWBtGmRUEfoE20iLZB+zZ9gL5cyzYRBCVuDCEMIQ0t/6A3fiNjd9Fs5r373sycc+Zcd3WX9f3BTJ7fxrK3mRbCnsnVjUjSyaQ02iMZjZzEsZdaOZbxdCqvrbm4rTPndyqRtDozmc6dNuEj7/lcpA1LhdTyjCalopPul9fm2oADfiIobr7PtVE+l5CHl6FO7PQm0ul6LQ6z275w/rie0eJG+0dzfzDXosXZaImMdxrx3dC5o+vIM/2pOZb9alpzIiUKj4C/6UIGGU2oobk7v429HVg2GsVVp9MIJpoWvaH/0+D0JuFRk6nJyOvPpnaYTTiaEogIdaVgSocrBAXwWSVFFBh8nmcT0aGufime9Vlna4YWtnPzBZyJSikh0ChknTgocPifD2iMmOtrsXx8Lor573A3u1yvUmCvmAktTg4ycv/4rfBCyCDkP1AR1lwpAIkpWBruBBBDPxgN2xDIMJwaiQLToFZeUQSmOmIxlTWCwDwCFcymCELPm51BYJblDMGgGN4b1q4I7BaadaEEPIJdIyArBT5U7X5ASy8TsMymrA/4TKQodKfBDu/DL21MUfrKpO/7AAAAAElFTkSuQmCC"
+		}],
+	"object": {
+		"uuid": "725BC72B-0A02-41D0-9848-60B7020F0FE6",
+		"type": "Group",
+		"name": "Group",
+		"layers": 1,
+		"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,1.632118,0,1],
+		"children": [
+			{
+				"uuid": "698829E4-AAF8-4B28-B95A-F2F126F7E74A",
+				"type": "Mesh",
+				"name": "Cylinder",
+				"layers": 1,
+				"matrix": [0.581769,0,0,0,0,3.006904,0,0,0,0,0.627468,0,0,0,0,1],
+				"geometry": "4154A4D9-4873-47CA-8933-A8F64B4C7A19",
+				"material": "DD151D01-7851-41A4-9ABB-A148EB64BA99"
+			},
+			{
+				"uuid": "EE251B22-2492-4F85-A35E-91F56367CCC1",
+				"type": "Mesh",
+				"name": "Sphere",
+				"layers": 1,
+				"matrix": [1.80004,0,0,0,0,1.607837,0,0,0,0,1.631065,0,0,1.985991,0,1],
+				"geometry": "BF0A53DB-EE55-4866-B42B-E6273B84105F",
+				"material": "562A5053-B199-47D5-8DF5-8F60FFD3D2B5"
+			}]
+	}
+}

@@ -96,7 +96,7 @@
     }
 
     function createCube1() {
-        const geo = new THREE.BoxGeometry(1, 1, 1);
+        const geo = new THREE.BoxGeometry(10, 10, 10);
         const mat = new THREE.MeshLambertMaterial({
             color:0xf16c20,
             wireframe: true
@@ -107,21 +107,31 @@
     }
 
     function createCube2() {
-        const geo = new THREE.SphereGeometry(0.5, 32, 32);
+        const geo = new THREE.SphereGeometry(5, 32, 32);
         const mat = new THREE.MeshLambertMaterial({
             color:0xf16c20,
             wireframe: true
         });
         const cube = new THREE.Mesh(geo, mat);
-        cube.position.set(0.8, 0, 0);
+        cube.position.set(5, 0, 0);
         return cube;
+    }
+
+    function update(scene) {
+        scene.children.forEach(function(child) {
+            if (child.type === 'Mesh') {
+                child.rotation.x += 0.008;
+                child.rotation.y += 0.008;
+                child.rotation.z += 0.008;
+            }
+        });
     }
 
 
     function renderScene(scene, camera, renderer, controls, stats, guiControl) {
         stats.begin();
         controls.update();
-        // update();
+        update(scene);
         renderer.render(scene, camera);
         stats.end();
         requestAnimationFrame(function() {

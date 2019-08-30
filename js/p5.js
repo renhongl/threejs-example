@@ -128,6 +128,9 @@
                     child.visible = false;
                 } else {
                     child.visible = true;
+                    child.rotation.x += 0.008;
+                    child.rotation.y += 0.008;
+                    child.rotation.z += 0.008;
                 }
             }
             if (child.name === 'convex') {
@@ -135,6 +138,9 @@
                     child.visible = false;
                 } else {
                     child.visible = true;
+                    child.rotation.x += 0.008;
+                    child.rotation.y += 0.008;
+                    child.rotation.z += 0.008;
                 }
             }
         });

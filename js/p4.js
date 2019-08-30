@@ -17,7 +17,7 @@
         document.body.appendChild(renderer.domElement);
 
         // set position for camera
-        camera.position.set(70, 50, -20);
+        camera.position.set(-30, 50, 10);
         // set camera to look at this scene
         camera.lookAt(scene.position);
 
@@ -32,9 +32,9 @@
         const randomW = Math.random() * 2 + 1;
         const randomH = Math.random() * 2 + 1;
         const randomD = Math.random() * 2 + 1;
-        const randomX = Math.random() * 10 + 5;
-        const randomY = Math.random() * 10 + 5;
-        const randomZ = Math.random() * 10 + 5;
+        const randomX = Math.random() * 20 - 10;
+        const randomY = Math.random() * 20 - 10;
+        const randomZ = Math.random() * 20 - 10;
         const randomRX = Math.random() * 10 + 5;
         const randomRY = Math.random() * 10 + 5;
         const randomRZ = Math.random() * 10 + 5;
@@ -64,7 +64,7 @@
 
     function createOrbitControls(camera, renderer) {
         const controls = new THREE.OrbitControls(camera, renderer.domElement);
-        camera.position.set(0, 20, 100);
+        camera.position.set(-30, 20, 50);
         controls.update();
         return controls;
     }

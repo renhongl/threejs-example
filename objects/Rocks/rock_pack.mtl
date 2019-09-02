@@ -1,0 +1,46 @@
+# Blender MTL File: 'rock_pack.blend'
+# Material Count: 4
+
+newmtl Material.001
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Bump G:\\Belgeler\\Belgeler\\Projeler\\Oyun Proje\\Texture\\Taş-Kaya\\Taş-Kaya (4).jpg
+map_Kd G:\\Belgeler\\Belgeler\\Projeler\\Oyun Proje\\Texture\\Taş-Kaya\\Taş-Kaya (4).jpg
+
+newmtl Material.005
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Bump G:\\Belgeler\\Belgeler\\Projeler\\Oyun Proje\\Texture\\Taş-Kaya\\Taş-Kaya (3).JPG
+map_Kd G:\\Belgeler\\Belgeler\\Projeler\\Oyun Proje\\Texture\\Taş-Kaya\\Taş-Kaya (3).JPG
+
+newmtl Material.006
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Bump G:\\Belgeler\\Belgeler\\Projeler\\Oyun Proje\\Texture\\Taş-Kaya\\Taş-Kaya (5).jpg
+map_Kd G:\\Belgeler\\Belgeler\\Projeler\\Oyun Proje\\Texture\\Taş-Kaya\\Taş-Kaya (5).jpg
+
+newmtl Material.007
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Bump G:\\Belgeler\\Belgeler\\Projeler\\Oyun Proje\\Texture\\Taş-Kaya\\Taş-Kaya (1).jpg
+map_Kd G:\\Belgeler\\Belgeler\\Projeler\\Oyun Proje\\Texture\\Taş-Kaya\\Taş-Kaya (1).jpg
